@@ -107,27 +107,30 @@ Each substantial project is designed around five layers of evidence:
 
 ---
 
-## Current public case study
+## Validated public case study
 
 ### [Banking DataOps Monitoring](https://github.com/Jericho107/banking-dataops-monitoring)
 
-Synthetic regulated-data environment focused on trustworthy analytical operations.
+Synthetic regulated-data control system designed to prove whether a PostgreSQL analytical target still matches its source after ingestion.
 
-**Current evidence includes:**
+**Validated evidence includes:**
 
-- PostgreSQL data model and ingestion flow
-- SQL-backed data-quality controls
-- Python quality runner
-- reconciliation workflow
-- Streamlit monitoring layer
-- Docker Compose
-- pytest and Ruff
-- GitHub Actions CI
-- incident and monitoring documentation
+- independent CSV source and PostgreSQL target states;
+- SQL-backed data-quality controls;
+- transaction-level source-to-target reconciliation;
+- missing, unexpected, duplicate and amount-mismatch detection;
+- fail-closed CLI behavior;
+- Streamlit monitoring;
+- Docker Compose;
+- pytest and Ruff;
+- GitHub Actions CI;
+- incident, recovery and proof documentation.
 
-`PostgreSQL` · `Python` · `SQL` · `Data Quality` · `Streamlit` · `Docker` · `CI`
+`PostgreSQL` · `Python` · `SQL` · `Data Quality` · `Reconciliation` · `Streamlit` · `Docker` · `CI`
 
-This repository is also being held to the same reverse-test standard as the rest of the portfolio: claims, architecture and controls are reviewed against their actual implementation before being treated as final.
+The repository has passed its reverse test on GitHub Actions: a clean state reconciles, a deliberate target mutation is detected as a failure, and source reload restores a passing state.
+
+[View the repository →](https://github.com/Jericho107/banking-dataops-monitoring)
 
 ---
 

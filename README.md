@@ -1,5 +1,11 @@
 <div align="center">
 
+<a href="https://pretoriabi.com">
+  <img src="assets/pretoria-bi-profile-banner.svg" alt="Pretoria BI — Data · Intelligence · Performance" width="100%">
+</a>
+
+<br>
+
 # Jonathan Gané
 
 ### Data Analyst · BI & Analytics Consultant

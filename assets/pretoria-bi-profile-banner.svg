@@ -1,0 +1,63 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pretoria BI — Jonathan Gané">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030405"/>
+      <stop offset=".58" stop-color="#0D1012"/>
+      <stop offset="1" stop-color="#181C1F"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="84" y1="68" x2="232" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F5F6"/>
+      <stop offset=".26" stop-color="#C9CED1"/>
+      <stop offset=".62" stop-color="#858D92"/>
+      <stop offset="1" stop-color="#4E555A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="752" y1="68" x2="1182" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5A6267"/>
+      <stop offset="1" stop-color="#24292D"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .brand{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:44px;font-weight:700;letter-spacing:1px;fill:#F3F4F5}
+      .tag{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;font-weight:500;letter-spacing:3px;fill:#AEB5B9}
+      .name{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:25px;font-weight:600;fill:#E3E6E8}
+      .role{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:17px;fill:#939CA2}
+      .kpi{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:12px;fill:#899298}
+      .value{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:700;fill:#E9ECEE}
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" rx="26" fill="url(#bg)"/>
+  <path d="M0 302 C260 270 398 356 650 303 C862 258 1050 244 1280 284 V360 H0 Z" fill="#090B0C"/>
+  <path d="M0 300 C278 265 401 345 646 300 C867 259 1057 240 1280 280" stroke="#252A2E" stroke-width="2"/>
+
+  <g>
+    <path d="M76 263 L154 74 L232 263 H198 L154 155 L110 263 Z" fill="url(#metal)"/>
+    <path d="M126 237 L154 169 L182 237 H164 L154 210 L144 237 Z" fill="#050607"/>
+    <path d="M106 263 L154 145 L202 263" stroke="#F8F9FA" stroke-opacity=".28" stroke-width="2"/>
+  </g>
+
+  <text x="278" y="115" class="brand">PRETORIA BI</text>
+  <text x="280" y="150" class="tag">DATA · INTELLIGENCE · PERFORMANCE</text>
+  <text x="280" y="218" class="name">Jonathan Gané</text>
+  <text x="280" y="250" class="role">BI &amp; Analytics Consultant · Decision Systems · Automation · Data Quality</text>
+
+  <g opacity=".95">
+    <rect x="760" y="60" width="438" height="238" rx="22" fill="#0A0D0F" stroke="url(#line)"/>
+    <rect x="786" y="86" width="115" height="74" rx="12" fill="#111518" stroke="#282F33"/>
+    <rect x="915" y="86" width="115" height="74" rx="12" fill="#111518" stroke="#282F33"/>
+    <rect x="1044" y="86" width="128" height="74" rx="12" fill="#111518" stroke="#282F33"/>
+    <text x="801" y="110" class="kpi">RELIABILITY</text>
+    <text x="801" y="142" class="value">PASS</text>
+    <text x="930" y="110" class="kpi">AUTOMATION</text>
+    <text x="930" y="142" class="value">ACTIVE</text>
+    <text x="1059" y="110" class="kpi">DECISION</text>
+    <text x="1059" y="142" class="value">READY</text>
+
+    <path d="M792 238 C832 210 855 247 892 218 C929 190 955 221 990 190 C1025 159 1057 207 1094 176 C1127 149 1153 172 1170 158" stroke="#4FA66C" stroke-width="3" fill="none" filter="url(#glow)"/>
+    <line x1="792" y1="259" x2="1170" y2="259" stroke="#262C30"/>
+    <line x1="792" y1="205" x2="1170" y2="205" stroke="#1E2326"/>
+  </g>
+</svg>

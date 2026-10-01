@@ -107,6 +107,34 @@ Each substantial project is designed around five layers of evidence:
 
 ---
 
+## Flagship decision-system case study
+
+### [Hospitality Intelligence Platform](https://github.com/Jericho107/hospitality-intelligence-platform)
+
+A synthetic multi-property decision system built around one management question:
+
+> **Revenue is growing. Why is controllable operating contribution deteriorating — and where should management act first?**
+
+The repository connects PMS, POS, procurement, inventory, labour and budget into a governed analytical system with:
+
+- PostgreSQL raw landing and dimensional modelling;
+- source → raw → fact → KPI reconciliation and deliberate failure injection;
+- governed hospitality KPI contracts;
+- TMDL semantic model and DAX measures;
+- four PBIR decision pages and 20 source-controlled visual containers;
+- Microsoft PBIR conformance validation in CI;
+- healthy-vs-leakage diagnostic controls;
+- baseline-first seven-day demand forecasting with weak-model rejection;
+- auditable management-opportunity modelling with explicit assumptions and sensitivity.
+
+`Hospitality` · `PostgreSQL` · `Python` · `SQL` · `Power BI` · `TMDL` · `PBIR` · `DAX` · `Forecasting` · `Data Quality` · `CI`
+
+**Evidence boundary:** the source-controlled Power BI project passes Microsoft's PBIR validator, but the repository does not yet claim successful Power BI Desktop rendering. A local Desktop Bridge evidence gate is already implemented for that final runtime proof.
+
+[Explore the flagship →](https://github.com/Jericho107/hospitality-intelligence-platform)
+
+---
+
 ## Validated public case study
 
 ### [Banking DataOps Monitoring](https://github.com/Jericho107/banking-dataops-monitoring)

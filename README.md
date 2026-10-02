@@ -189,6 +189,23 @@ The project does not treat association or SHAP importance as causal evidence.
 
 ---
 
+## Pretoria BI — complementary decision systems
+
+The portfolio now includes six additional executable repositories, each designed around a distinct failure mode or management decision:
+
+| Repository | Decision / proof focus |
+|---|---|
+| [Accounting Firm Intelligence](https://github.com/Jericho107/accounting-firm-intelligence) | profitability, WIP, receivables and deadline risk |
+| [Executive BI Command Center](https://github.com/Jericho107/Executive-bi-command-center) | KPI variance, cash conversion, retention and priority |
+| [Automated Data Reporting Pipeline](https://github.com/Jericho107/Automated-data-reporting-pipeline) | schema contracts, deterministic reconciliation and reporting automation |
+| [Customer Growth Experimentation](https://github.com/Jericho107/Customer-growth-experimentation) | A/B testing, SRM, significance, practical effect and guardrails |
+| [Data Quality Rescue](https://github.com/Jericho107/Data-quality-rescue) | fail-closed quality controls, defect detection and recovery |
+| [Predictive Business Analytics](https://github.com/Jericho107/Predictive-business-analytics) | baseline-first prediction, leakage prevention and model acceptance |
+
+Each repository includes an executable core, tests, GitHub Actions and a deliberate reverse-test. They are complementary case studies; **Hospitality remains the deepest flagship architecture** until these repositories accumulate equivalent end-to-end evidence.
+
+---
+
 ## Portfolio evidence hierarchy
 
 The live repositories are intentionally differentiated rather than padded with copies of the same pattern:

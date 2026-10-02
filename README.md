@@ -95,15 +95,16 @@ If it says **predictive**, there is a baseline and out-of-sample evaluation.
 If it says **reproducible**, another person can replay the workflow from documented instructions.  
 If it says **business impact**, the calculation and assumptions must be inspectable.
 
-Each substantial project is designed around five layers of evidence:
+Each substantial project is designed around six layers of evidence:
 
 | Layer | Question |
 |---|---|
-| **Business Proof** | Is the problem worth solving? |
-| **Analytical Proof** | Do the data support the conclusion? |
-| **Engineering Proof** | Is the solution correctly built? |
-| **Operational Proof** | Can it run reliably and be reproduced? |
-| **Value Proof** | Can its usefulness be measured? |
+| **Business Proof** | Is the problem worth solving and tied to a real decision? |
+| **Data Proof** | Are grain, contracts, quality and reconciliation explicit? |
+| **Analytical Proof** | Do the data and method support the conclusion? |
+| **Engineering Proof** | Is the implementation tested, readable and reproducible? |
+| **Operational Proof** | Does it fail closed, recover and run under CI? |
+| **Value Proof** | Is the action or opportunity measurable without inventing realised ROI? |
 
 ---
 
@@ -159,6 +160,48 @@ Synthetic regulated-data control system designed to prove whether a PostgreSQL a
 The repository has passed its reverse test on GitHub Actions: a clean state reconciles, a deliberate target mutation is detected as a failure, and source reload restores a passing state.
 
 [View the repository →](https://github.com/Jericho107/banking-dataops-monitoring)
+
+---
+
+## Behavioral analytics case study
+
+### [Speed Dating Behavioral Analytics](https://github.com/Jericho107/Projet-social-engineering-on-Tinder)
+
+A public behavioral-data case study used to demonstrate the boundary between descriptive analysis, statistical association and predictive modelling.
+
+**Current governed evidence includes:**
+
+- explicit target/post-outcome leakage controls;
+- fail-closed feature auditing;
+- binary-target and probability contracts;
+- statistical-analysis and effect-size workflow;
+- realistic-versus-leaky model framing;
+- explainability boundary;
+- Streamlit runtime path correction;
+- pytest + Ruff + GitHub Actions;
+- CI reverse test that deliberately injects target leakage.
+
+`Python` · `Statistics` · `scikit-learn` · `XGBoost` · `SHAP` · `Streamlit` · `CI`
+
+The project does not treat association or SHAP importance as causal evidence.
+
+[View the repository →](https://github.com/Jericho107/Projet-social-engineering-on-Tinder)
+
+---
+
+## Portfolio evidence hierarchy
+
+The live repositories are intentionally differentiated rather than padded with copies of the same pattern:
+
+| Repository | Primary proof |
+|---|---|
+| **Hospitality Intelligence Platform** | end-to-end business decision system: source contracts → PostgreSQL → governed KPIs → diagnostics → forecasting → Power BI source model → value model |
+| **Banking DataOps Monitoring** | full-row source-to-target integrity, operational controls, corruption detection and recovery |
+| **Speed Dating Behavioral Analytics** | statistical reasoning, leakage-aware modelling, explainability and interpretation boundaries |
+
+A repository is not promoted as flagship evidence merely because it has many files. It must demonstrate distinct business value, executable controls and a falsifiable central claim.
+
+See [PORTFOLIO_STANDARD.md](PORTFOLIO_STANDARD.md) for the quality gate applied across public work.
 
 ---
 
